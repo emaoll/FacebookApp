@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FacebookApp</string>
+    <string name="facebook_app_id">1681429712143951</string>
+    <string name="action_settings">Settings</string>
+    <string name="answer1">The animation machine of the future.</string>
+    <string name="answer2">Animate your photos from home.</string>
+    <string name="answer3">The easy way to create a web advertisement.</string>
+    <string name="answer4">Used to impress.</string>
+    <string name="answer5">Make your photos come to life.</string>
+    <string name="answer6">Animate videos as well.</string>
+    <string name="aanswer1">Get a video and use PNZ to animate it.</string>
+    <string name="aanswer2">Log in and use PNZ now.</string>
+    <string name="aanswer3">Add some style to your photos with PNZ.</string>
+    <string name="aanswer4">A place to post all your amazing PNZ animations.</string>
+    <string name="aanswer5">Visit our PNZ facebook page.</string>
+    <string name="button">Facebook Login</string>
+    <string name="button2">FB Login</string>
+</resources>

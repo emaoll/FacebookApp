@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7a90e4"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img"
+        android:layout_above="@+id/fbname"
+        >
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/img1"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/facebook"
+        />
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitXY"
+        android:id="@+id/img2"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/pnz"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fbname"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/email"
+            android:layout_weight="1"
+            android:layout_alignLeft="@+id/eemail"
+            android:background="#3b5998"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="#f9f9fa"
+            />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/eemail"
+            android:layout_weight="5"
+            android:background="#ddb3b4b9"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fbpassword"
+        android:layout_below="@+id/fbname"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:id="@+id/password"
+        android:layout_weight="2"
+        android:layout_alignLeft="@+id/ppassword"
+        android:background="#3b5998"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="#f9f9fa"
+        />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/ppassword"
+            android:layout_weight="7"
+            android:background="#ddb3b4b9"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:password="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fbpassword"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/btna"
+            android:onClick="a"
+            android:background="#3b5998"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f9f9fa"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/btnb"
+            android:onClick="b"
+            android:background="#3b5998"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#f9f9fa"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
